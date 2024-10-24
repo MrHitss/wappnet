@@ -32,7 +32,7 @@ class ContactList extends Component
             $this->includedTags = array_diff($this->includedTags, [$tagId]);
         } else {
             $this->includedTags[] = $tagId;
-            $this->excludedTags = array_diff($this->excludedTags, [$tagId]); // Remove from excluded if added to included
+            $this->excludedTags = array_diff($this->excludedTags, [$tagId]);
         }
     }
 
@@ -42,7 +42,7 @@ class ContactList extends Component
             $this->excludedTags = array_diff($this->excludedTags, [$tagId]);
         } else {
             $this->excludedTags[] = $tagId;
-            $this->includedTags = array_diff($this->includedTags, [$tagId]); // Remove from included if added to excluded
+            $this->includedTags = array_diff($this->includedTags, [$tagId]);
         }
     }
 
