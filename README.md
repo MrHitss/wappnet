@@ -50,6 +50,18 @@
    ```bash
    php artisan serve
    ```
+
+## Test the Application
+
+### Step 1: Generate the Key
+```bash
+php artisan key:generate --env=testing
+```
+
+### Step 2: Run the TestCases
+```bash
+php artisan test
+```
    
 ## References (Screenshots)
 <img width="500" alt="Screenshot 2024-10-24 at 7 45 01 PM" src="https://github.com/user-attachments/assets/7ee9ffdc-5975-4e04-a0c3-2169591c0f7b">
